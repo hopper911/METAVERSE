@@ -13,7 +13,3 @@ function calculateAge(){
 
     result.innerHTML = `You are ${years} years, ${months} months and ${days} days old`;
 }
-
-function getDayInMonth(year,month){
-    return (new Date(year, month, 0)).getDate();
-}
